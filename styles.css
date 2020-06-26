@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(mainImg.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250vh;
+}
+
+#main-h1{
+    text-align: center;
+    margin: .5em 0;
+    color: #fff;
+    font-size: 2em;
+}
+
+
+button{
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.main-div{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.inner-div{
+    background-color: #374b58;
+    padding: 80px;
+    border: solid 1px #fff;
+    border-radius: 3px;
+    box-shadow: #a3a3a3 1px 2px 7px;
+}
+
+
+.login-field {
+    background-color: #a0acaf;
+    border: solid 1px #949a9b;
+    border-radius: 3px;
+    width: 200px;
+    padding: .5em;
+}
+
+.login-button{
+    width: 215px;
+    padding: .5em;;
+    background-color: #415a74;
+    border: solid 1px #95a3b1;
+    color: #fff;
+}
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////////////// */
+/* difficulties page */
+.inner-div p{
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+}
+
+.level-div{
+    display: flex;
+    justify-content: space-evenly;
+}
+.difficulty-button{
+    margin: 3em;
+    background-color: #465057;
+    box-shadow: #000000 1px 2px 7px;
+    padding: 1.5em;
+    border-radius: 20px;
+}
+
+/* the level btn */
+#the-easy:hover{
+    background-color: #4be09b;
+    box-shadow: #fff 1px 2px 65px;
+    border: solid 1px #83e0b5;
+    color: #0a491a;
+    transition: 0.4s;
+}
+
+#the-med:hover{
+    background-color: #eede85;
+    box-shadow: #ffff00 1px 2px 65px;
+    border: solid 1px #cab87d;
+    color: #5e440c;
+    transition: 0.4s;
+}
+
+#the-hard:hover{
+    background-color: #eb4630;
+    box-shadow: #ff3c00 1px 2px 85px;
+    border: solid 1px #b43018;
+    color: #4e1908;
+    transition: 0.4s;
+}
+/* //////////////////////////////////// */
+
+
+/* the game boards */
+
+
+.container{
+    padding: 50px 0px 0px 0px;
+    margin: 0;
+}
+
+.big-div{
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.the-row{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.the-main-cell{
+    border: solid 2px #00f;
+    width: 130px;
+    height: 130px;
+    padding: 0;
+    margin: 0em;
+}
+
+.easy-design {
+    border: solid 2px rgb(145, 255, 213);
+}
+
+.medium-design {
+    border: solid 2px rgb(255, 200, 48);
+}
+
+.hard-design {
+    border: solid 2px red;
+}
+
+.the-cell{
+    background-color: rgba(0, 0, 0, 0);
+    color: white   ;
+}
+
+.inserted-numbers {
+    color: rgba(255,255,255, 60%);
+}
+
+#button-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#check-button {
+    font-size: large;
+    border: solid 3px white;
+    background: rgba(0, 0, 0, 60%);
+    border-radius: 15px;
+    color: white;
+    padding: 15px;
+    transition: 0.5s;
+}
+
+#check-button:hover {
+    font-size: large;
+    border: solid 3px rgb(112, 224, 252);
+    background: rgba(0, 0, 0, 60%);
+    border-radius: 15px;
+    color:rgb(112, 224, 252);
+    padding: 20px;
+}
+
+/* hiding arrows in the number inputs */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+/* //////////////////////////// */
+
+.the-cell{
+    width: 33.333333%;
+    height: 39.6px;
+    font-size: 3em;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+/* //////////////////////////// */
+
+
+
+
+
+/* footer */
+footer{
+    margin: 1em 0 0 0;
+    color: #fff;
+    text-align: center;
+}
+/* //////////////////////////////////// */
